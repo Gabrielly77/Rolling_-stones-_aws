@@ -71,3 +71,17 @@ Se na questão falar:
 "Quer minimizar custo e manter alguma disponibilidade durante o deploy" ➝ Rolling.
 
 "Quer minimizar downtime a todo custo, mesmo pagando mais" ➝ Blue/Green.
+
+Bora deixar essa analogia mais afiada:
+
+Pedra rolando devagar (Rolling):
+Vai de pouquinho em pouquinho, sai uma instância velha, entra uma nova. Equilíbrio, paz, estabilidade, sem causar terremoto na aplicação. 🌍🧘‍♀️
+
+Pedra CAINDO DO PENHASCO (AllAtOnce):
+💥 TROCA TUDO DE UMA VEZ. Pode ser rápido, mas se der ruim… já era, menina. Desastre natural na infra. 🌋😱
+
+Pedra DUPLICADA (Blue/Green):
+Você cria outra pedra, todinha igual, bem bonitinha do lado. Testa ela, vê se tá funcionando, e só depois troca a trilha da pedra antiga pra nova. Seguro, mas custa dobrado temporariamente. 🪨🪨
+
+Resumo de ouro pra tatuar na mente:
+🪨 Rolling = Pedra rolando na moralzinha, devagar, trocando aos poucos.
